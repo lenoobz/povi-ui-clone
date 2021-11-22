@@ -1,0 +1,474 @@
+/**************************************************
+ * Overwrite w3 style
+ **************************************************/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #73706e;
+}
+
+.w3-theme-l5,
+.w3-theme-l4,
+.w3-theme-l3,
+.w3-theme-l2,
+.w3-theme-l1,
+.w3-theme-d1,
+.w3-theme-d2,
+.w3-theme-d3,
+.w3-theme-d4,
+.w3-theme-d5,
+.w3-theme-light,
+.w3-theme-dark,
+.w3-theme-action {
+  color: #73706e !important;
+}
+
+.w3-light {
+  font-weight: 300;
+}
+
+.w3-bold {
+  font-weight: 700;
+}
+
+/**************************************************
+ * Components style
+ **************************************************/
+
+/* Container Component */
+
+.container {
+  margin-bottom: 25px;
+}
+
+.container-header > .w3-bar-item {
+  margin: 0;
+  padding: 8px 0;
+  font-weight: 700;
+}
+
+.container-header > .w3-button:hover {
+  color: #93cf95 !important;
+  background-color: unset !important;
+}
+
+.container-body {
+  padding: 20px 30px;
+}
+
+@media (max-width: 601px) {
+  .container-body {
+    padding: 10px;
+  }
+}
+
+/* Account Table Component */
+
+.account-list > .account-list-item {
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+}
+
+.account-list > .account-list-item:last-child {
+  border-bottom: unset;
+}
+
+.account-list > .account-list-item > .account-list-item-body {
+  flex-grow: 1;
+  display: flex;
+}
+
+.account-list > .account-list-item > .account-list-item-body.disabled {
+  text-decoration: line-through;
+  text-decoration-color: #f44336;
+}
+
+.account-list > .account-list-item > .account-list-item-body > p {
+  margin: 0;
+  padding: 8px 0;
+}
+
+.account-list > .account-list-item > .account-list-item-body:hover p > span {
+  color: #93cf95 !important;
+  background-color: unset !important;
+}
+
+.account-list > .account-list-item > .account-list-item-body > p.push-right {
+  margin-left: auto;
+}
+
+.account-list > .account-list-item > .account-list-item-body > p > .title {
+  margin-right: 10px;
+  font-weight: 700;
+  color: #403e3d;
+}
+
+.account-list > .account-list-item > .account-list-item-button:hover {
+  color: #f44336 !important;
+  background-color: unset !important;
+}
+
+.account-list > .account-list-item > .account-list-item-button.left-button {
+  padding-left: 0;
+}
+
+.account-list > .account-list-item > .account-list-item-button.right-button {
+  padding-right: 0;
+}
+
+@media (max-width: 601px) {
+  .account-list > .account-list-item > .account-list-item-body > p > .title {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+  }
+
+  .account-list > .account-list-item > .account-list-item-button {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+  }
+}
+
+/* Portfolio Table Component */
+
+.portfolio-table > thead > tr {
+  border-bottom: unset;
+}
+
+.portfolio-table > thead > tr > th:first-child {
+  padding-left: 0;
+}
+
+.portfolio-table > thead > tr > th:last-child {
+  padding-right: 0;
+}
+
+.portfolio-table > tbody > tr:hover {
+  cursor: pointer;
+}
+
+.portfolio-table > tbody > tr:hover {
+  color: #93cf95;
+}
+
+.portfolio-table > tbody > tr:hover > td > .w3-button {
+  color: #73706e;
+}
+
+.portfolio-table > tbody > tr:last-child {
+  border-bottom: unset;
+}
+
+.portfolio-table > tbody > tr > td:first-child {
+  padding-left: 0;
+}
+
+.portfolio-table > tbody > tr > td:last-child {
+  padding-right: 0;
+}
+
+.portfolio-table > tbody > tr > td > .w3-button {
+  padding: 0;
+}
+
+.portfolio-table > tbody > tr > td > .w3-button:hover {
+  color: #f44336 !important;
+  background-color: unset !important;
+}
+
+/* Account Stat Component */
+
+.account-stat {
+  margin-bottom: 30px;
+}
+
+.account-stat > p {
+  margin: 0;
+}
+
+.account-stat-info {
+  font-weight: 700;
+  color: #403e3d;
+}
+
+/* Account Modal Component */
+
+.account-modal button {
+  color: #fff !important;
+  background-color: #4caf50;
+}
+
+.account-modal button:hover {
+  color: #fff !important;
+  background-color: #459c48 !important;
+}
+
+.account-modal button:disabled {
+  background-color: #93cf95 !important;
+  opacity: unset !important;
+}
+
+/* Position Modal Component */
+
+.position-modal button.save-button {
+  color: #fff !important;
+  background-color: #4caf50;
+}
+
+.position-modal button.save-button:hover {
+  color: #fff !important;
+  background-color: #459c48 !important;
+}
+
+.position-modal button.save-button:disabled {
+  background-color: #93cf95 !important;
+  opacity: unset !important;
+}
+
+/* Page Alert Component */
+
+.page-alert {
+  color: #fff !important;
+}
+
+.page-alert h3,
+.page-alert p {
+  color: #fff !important;
+}
+
+.page-alert .close-button {
+  background-color: transparent !important;
+}
+
+.page-alert .close-button:hover {
+  color: #f44336 !important;
+  background-color: transparent !important;
+}
+
+/* Page Content Component */
+
+.page-content {
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: calc(100vh - 72px);
+}
+
+/* Page Header Component */
+
+.page-header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.page-header .header-logo {
+  width: 48px;
+  height: 48px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+}
+
+.page-header .header-nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page-header .header-nav-link {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.page-header .header-nav-link:not(:first-child):not(:last-child) {
+  padding: 0 24px;
+}
+
+.page-header .header-nav-link:hover {
+  color: #93cf95;
+}
+
+.page-header .header-nav-link-actived {
+  color: #4caf50;
+}
+
+@media (max-width: 992px) {
+  .page-header .header-nav {
+    padding-right: 16px;
+  }
+}
+
+.page-header .header-actions {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.page-header .header-action {
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: transparent;
+  color: #73706e !important;
+}
+
+.page-header .header-profile {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.page-header .header-action:hover {
+  color: #93cf95 !important;
+}
+
+.page-header .header-action-dropdown {
+  right: 0;
+  color: #73706e !important;
+}
+
+.page-header .header-action-dropdown .w3-button:hover {
+  background-color: #93cf95 !important;
+  color: #73706e !important;
+}
+
+.page-header .header-action-dropdown .w3-button:first-child {
+  border-radius: 4px 4px 0 0;
+}
+
+.page-header .header-action-dropdown .w3-button:last-child {
+  border-radius: 0 0 4px 4px;
+}
+
+/* Quick Select Component */
+
+.quick-select {
+  display: flex;
+  align-items: center;
+}
+
+.quick-select .quick-select-label {
+  padding: 0 10px;
+}
+
+/* Progress Bar Component */
+
+.page-progress-bar {
+  width: 100%;
+}
+
+.progress-bar {
+  height: 2px;
+  background-color: rgba(184 222 186, 0.2);
+  width: 100%;
+  overflow: hidden;
+}
+
+.progress-bar-value {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(184 222 186);
+  animation: indeterminateAnimation 1s infinite linear;
+  transform-origin: 0% 50%;
+}
+
+@keyframes indeterminateAnimation {
+  0% {
+    transform: translateX(0) scaleX(0);
+  }
+  40% {
+    transform: translateX(0) scaleX(0.4);
+  }
+  100% {
+    transform: translateX(100%) scaleX(0.5);
+  }
+}
+
+/* Avatar Component */
+
+.avatar {
+  vertical-align: middle;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+/* Sign up page */
+
+.page-signup {
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-signup .login-form {
+  width: 224px;
+  padding-bottom: 20px;
+  background-color: #b7dfb8;
+}
+
+.google-button {
+  cursor: pointer;
+  height: 40px;
+  border-width: 0;
+  background: white;
+  color: #737373;
+  border-radius: 5px;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.google-button:focus,
+.google-button:hover {
+  box-shadow: 1px 4px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.google-button:active {
+  background-color: #e5e5e5;
+  box-shadow: none;
+  transition-duration: 10ms;
+}
+
+.google-button__icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 8px 0 8px 8px;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+
+.google-button__icon--plus {
+  width: 27px;
+}
+
+.google-button__text {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 24px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto', arial, sans-serif;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

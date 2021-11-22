@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Industrials",
+    "code": "IND"
+  },
+  {
+    "name": "Financials",
+    "code": "FIN"
+  },
+  {
+    "name": "Health Care",
+    "code": "HEC"
+  },
+  {
+    "name": "Consumer Disc.",
+    "code": "CND"
+  },
+  {
+    "name": "Consumer Goods",
+    "code": "CNS"
+  },
+  {
+    "name": "Technology",
+    "code": "TEC"
+  },
+  {
+    "name": "Materials",
+    "code": "MTL"
+  },
+  {
+    "name": "Energy",
+    "code": "ENG"
+  },
+  {
+    "name": "Utilities",
+    "code": "UTL"
+  },
+  {
+    "name": "Telecom",
+    "code": "TEL"
+  },
+  {
+    "name": "Real Estate",
+    "code": "RLE"
+  },
+  {
+    "name": "Other",
+    "code": "OTH"
+  }
+]
